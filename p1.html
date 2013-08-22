@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<!--
+# -------------------------------------------------------------------
+# -------------------------------------------------------------------
+#                          JUEGO PONG HTML5
+#             	 		DANIEL AREVALILLO PELAEZ
+#		     		 CURSO: HTML5 Y EL FUTURO DE LA WEB 
+#                           UNIVERSIDAD DE OVIEDO
+#
+#         				UTILIZA GOOGLE CHROME POR FAVOR
+# -------------------------------------------------------------------
+# -------------------------------------------------------------------
+-->
+<head>
+<title> Pong HTML5 </title>
+
+<script src="codigo.js"></script>
+<link rel = "stylesheet" href="estilos.css">
+
+
+</head>
+
+<body onkeydown="Control()">
+
+<h1> Pong en HTML5 </h1>
+<h2>Curso : HTML5 y el futuro de la web</h2>
+
+
+
+
+<div id="box">
+<canvas id="stage" width="800" height="300"></canvas>
+</div>
+
+
+.
+<a class="button "></a>
+      
+<form>
+<input id="boton" type="button" class="button" value="Start" onClick="init();">
+</form>
+
+
+<div id='score_container'> 
+        Jugador A:
+        <span id='puntajeA'>2</span><br>
+        Jugador B:
+        <span id='puntajeB'>2</span><br>
+      </div> 
+<p>-CONTROLES-</p>
+<p>Jugador A las teclas a usar son (W,S)
+<p>Jugador B las teclas a usar son las flechas direccionales
+</body>
+</html>
